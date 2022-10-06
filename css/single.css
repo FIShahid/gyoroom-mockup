@@ -273,6 +273,7 @@ p {
     border-radius: 5px;
     border: 4px solid #caa169;
     background-color: teal;
+   
     
     
 }
@@ -301,9 +302,11 @@ p {
 
 .amenities{
     width: 120%;
-    margin-bottom: 0%;
-
+   
   
+}
+.option-table{
+    margin-top: -55px;
 }
 .room-option{
     width: 200%
