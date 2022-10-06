@@ -254,6 +254,13 @@ p {
     margin: 0 auto;
     color: var(--text-white);
 }
+/* .body-bg{
+    background-image:url(/images/bg.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+} */
 
 .booking-area {
     background: var(--bg-white);
@@ -265,6 +272,8 @@ p {
     z-index: 2;
     border-radius: 5px;
     border: 4px solid #caa169;
+    background-color: teal;
+    
     
 }
 
@@ -292,6 +301,7 @@ p {
 
 .amenities{
     width: 120%;
+    margin-bottom: 0%;
 
   
 }
@@ -301,7 +311,7 @@ p {
 .discount{
     width: 80px;
     text-align: center;
-    border: 1px solid black;
+    border: none;
     padding: 6px;
     border-radius: 15px;
     background-color: #ebe0d0c5;
@@ -554,6 +564,24 @@ p {
         grid-template-columns: 1fr 1fr ;
         align-items: center;
         justify-content: center;
+        text-align: center;
+    }
+    .single-image{
+        width: 100%;
+    }
+    .amenities-responsive{
+        width: 50px;
+    }
+    
+    .option-responsive{
+        width: 350%;
+        align-items: center;
+        
+    }
+    .option-responsive p{
+        text-align: center;
+    }
+    .option-responsive h5{
         text-align: center;
     }
 }
