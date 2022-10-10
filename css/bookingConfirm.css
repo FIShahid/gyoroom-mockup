@@ -305,7 +305,8 @@ p {
 }
 
 .h8 {
-    font-size: 12px
+    font-size: 12px;
+   
 }
 
 .h9 {
@@ -366,9 +367,23 @@ input.card {
 
 /* ===========My Customization =========*/
 .room-image{
-    width: 100%;
-    height: 100%;
+    
     background-size: cover;
+   
+}
+.stay-info{
+   margin-top: 25px;
+   color: #7a7a7a;
+}
+.check-info{
+    margin-bottom: 0%;
+}
+.payment-info p{
+    font-size: 12px;
+}
+.right-side{
+    margin-bottom: 0%;
+    
 }
 /* =========================================================
 =========================11 footer===========================
